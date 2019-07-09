@@ -2,8 +2,8 @@
     <div class="container">
       <div class="skill-wrap clearfix">
         <div class="center wow fadeInDown">
-          <h2>About <span>Gp.</span></h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <h2>Acerca de <span>SpecialChem</span></h2>
+          <p class="lead">Speial Chem es una empresa de distribución de productos químicos. En representación de los principales productores mundiales, nuestro personal de ventas son técnicos expertos enfocados en el mercado, que ofrecen soluciones a los problemas de los clientes que utilizan nuestra cartera integral y complementaria de productos.</p>
         </div>
 
         <div class="row">
@@ -57,7 +57,7 @@
             <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="media">
                 <div class="pull-left">
-                  <a href="#"><img class="media-object" src="images/man1.jpg" alt=""></a>
+                  <a href="#"><img class="media-object" src="<?=base_url()?>res/images/man1.jpg" alt=""></a>
                 </div>
                 <div class="media-body">
                   <h4>Jhon Doe</h4>
@@ -87,7 +87,7 @@
             <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="media">
                 <div class="pull-left">
-                  <a href="#"><img class="media-object" src="images/man2.jpg" alt=""></a>
+                  <a href="#"><img class="media-object" src="<?=base_url()?>res/images/man2.jpg" alt=""></a>
                 </div>
                 <div class="media-body">
                   <h4>Jhon Doe</h4>
@@ -136,7 +136,7 @@
             <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div class="media">
                 <div class="pull-left">
-                  <a href="#"><img class="media-object" src="images/man3.jpg" alt=""></a>
+                  <a href="#"><img class="media-object" src="<?=base_url()?>res/images/man3.jpg" alt=""></a>
                 </div>
 
                 <div class="media-body">
@@ -163,7 +163,7 @@
             <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div class="media">
                 <div class="pull-left">
-                  <a href="#"><img class="media-object" src="images/man4.jpg" alt=""></a>
+                  <a href="#"><img class="media-object" src="<?=base_url()?>res/images/man4.jpg" alt=""></a>
                 </div>
                 <div class="media-body">
                   <h4>Jhon Doe</h4>

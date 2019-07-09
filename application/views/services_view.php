@@ -1,8 +1,8 @@
   <section id="services" class="service-item">
     <div class="container">
       <div class="center wow fadeInDown">
-        <h2>Our Service</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <h2>Industrias que atendemos</h2>
+        <!--<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p> -->
       </div>
 
       <div class="row">
@@ -10,10 +10,10 @@
         <div class="col-sm-6 col-md-4">
           <div class="media services-wrap wow fadeInDown">
             <div class="pull-left">
-              <img class="img-responsive" src="<?=base_url()?>res/images/services/services1.png">
+              <img class="img-responsive" src="<?=base_url()?>res/images/services/sandwich.png">
             </div>
             <div class="media-body">
-              <h3 class="media-heading">SEO Marketing</h3>
+              <h3 class="media-heading">Alimentos</h3>
               <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
             </div>
           </div>
@@ -22,10 +22,10 @@
         <div class="col-sm-6 col-md-4">
           <div class="media services-wrap wow fadeInDown">
             <div class="pull-left">
-              <img class="img-responsive" src="<?=base_url()?>res/images/services/services2.png">
+              <img class="img-responsive" src="<?=base_url()?>res/images/services/tiles.png">
             </div>
             <div class="media-body">
-              <h3 class="media-heading">SEO Marketing</h3>
+              <h3 class="media-heading">Recubrimientos</h3>
               <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
             </div>
           </div>
@@ -34,10 +34,10 @@
         <div class="col-sm-6 col-md-4">
           <div class="media services-wrap wow fadeInDown">
             <div class="pull-left">
-              <img class="img-responsive" src="<?=base_url()?>res/images/services/services3.png">
+              <img class="img-responsive" src="<?=base_url()?>res/images/services/pipe.png">
             </div>
             <div class="media-body">
-              <h3 class="media-heading">SEO Marketing</h3>
+              <h3 class="media-heading">Plásticos y derivados</h3>
               <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
             </div>
           </div>
@@ -46,10 +46,10 @@
         <div class="col-sm-6 col-md-4">
           <div class="media services-wrap wow fadeInDown">
             <div class="pull-left">
-              <img class="img-responsive" src="<?=base_url()?>res/images/services/services4.png">
+              <img class="img-responsive" src="<?=base_url()?>res/images/services/house.png">
             </div>
             <div class="media-body">
-              <h3 class="media-heading">SEO Marketing</h3>
+              <h3 class="media-heading">Cuidado del Hogar</h3>
               <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
             </div>
           </div>
@@ -58,10 +58,10 @@
         <div class="col-sm-6 col-md-4">
           <div class="media services-wrap wow fadeInDown">
             <div class="pull-left">
-              <img class="img-responsive" src="<?=base_url()?>res/images/services/services5.png">
+              <img class="img-responsive" src="<?=base_url()?>res/images/services/makeover.png">
             </div>
             <div class="media-body">
-              <h3 class="media-heading">SEO Marketing</h3>
+              <h3 class="media-heading">Cuidado Personal</h3>
               <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
             </div>
           </div>
@@ -70,10 +70,10 @@
         <div class="col-sm-6 col-md-4">
           <div class="media services-wrap wow fadeInDown">
             <div class="pull-left">
-              <img class="img-responsive" src="<?=base_url()?>res/images/services/services6.png">
+              <img class="img-responsive" src="<?=base_url()?>res/images/services/caulk-gun.png">
             </div>
             <div class="media-body">
-              <h3 class="media-heading">SEO Marketing</h3>
+              <h3 class="media-heading">Adhesivos</h3>
               <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
             </div>
           </div>

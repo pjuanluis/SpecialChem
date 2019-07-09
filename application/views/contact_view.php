@@ -5,8 +5,8 @@
   <section id="contact-page">
     <div class="container">
       <div class="center">
-        <h2>Drop Your Message</h2>
-        <p class="lead">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h2>Mandanos un mensaje</h2>
+        <p class="lead">Mandanos tu mensaje y nos podremos en contacto contigo lo antes posible.</p>
       </div>
       <div class="row contact-wrap">
         <div class="col-sm-8 col-sm-offset-2">
