@@ -1,45 +1,88 @@
-  <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.248654886152!2d-100.45758958559941!3d20.618719107026703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d3506f3ea7432d%3A0x4904ad06363588a!2sBP+Sendero!5e0!3m2!1ses-419!2smx!4v1561156961145!5m2!1ses-419!2smx" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
-
-  <section id="contact-page">
+    
+<section class="home-slider-loop-false  inner-page owl-carousel">
+  <div class="slider-item" style="background-image: url('<?=base_url()?>res/img/contacto.jpg');">    
     <div class="container">
-      <div class="center">
-        <h2>Mandanos un mensaje</h2>
-        <p class="lead">Mandanos tu mensaje y nos podremos en contacto contigo lo antes posible.</p>
-      </div>
-      <div class="row contact-wrap">
-        <div class="col-sm-8 col-sm-offset-2">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
-            <div class="form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
-                data-msg="Please enter a valid email" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
-                data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
-                placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
-
-            <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
-          </form>
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-md-8 text-center col-sm-12 element-animate">
+          <h1>Contáctanos</h1>
         </div>
       </div>
-      <!--/.row-->
     </div>
-    <!--/.container-->
-  </section>
-  <!--/#contact-page-->
+  </div>  
+</section>
+
+<section class="section element-animate" id="contacto">
+  <div class="clearfix mb-5 pb-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center heading-wrap">
+          <h2>Escribenos</h2>
+          <span class="back-text">Contacto</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <form action="<?=base_url()?>web/mail" method="post">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="nombre" class="form-control" required>
+            </div>
+            <div class="col-md-6 form-group">
+              <label for="phone">Telefono</label>
+              <input type="text" id="phone" name="tel" class="form-control" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 form-group">
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <label for="message">Mensaje</label>
+              <textarea name="message" id="message" name="mensaje" class="form-control " cols="30" rows="8" required></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-lg-6 pl-2 pl-lg-5">
+
+        <div class="col-md-8 mx-auto contact-form-contact-info">
+          <h4 class="mb-5">Detalles de contacto</h4>
+          <p class="d-flex">
+            <span class="ion-ios-location icon mr-5"></span>
+            <span>Boulevard Bernardo Quintana 2481 Parque Advance, Bodega 9</span>
+          </p>
+
+          <p class="d-flex">
+            <span class="ion-ios-telephone icon mr-5"></span>
+            <span>442 642 5724 y 442 642 5725</span>
+          </p>
+
+          <p class="d-flex">
+            <span class="ion-android-mail icon mr-5"></span>
+            <span>contacto@specialchem.com.mx</span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+</section>

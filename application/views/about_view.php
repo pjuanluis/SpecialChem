@@ -1,195 +1,128 @@
-  <section id="about-us">
+ 
+
+<section class="home-slider-loop-false  inner-page owl-carousel">
+  <div class="slider-item" style="background-image: url('<?=base_url()?>res/img/junta.jpg');">
+
     <div class="container">
-      <div class="skill-wrap clearfix">
-        <div class="center wow fadeInDown">
-          <h2>Acerca de <span>SpecialChem</span></h2>
-          <p class="lead">Speial Chem es una empresa de distribución de productos químicos. En representación de los principales productores mundiales, nuestro personal de ventas son técnicos expertos enfocados en el mercado, que ofrecen soluciones a los problemas de los clientes que utilizan nuestra cartera integral y complementaria de productos.</p>
-        </div>
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-md-8 text-center col-sm-12 element-animate">
+          <h1>Conócenos</h1>
 
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="joomla-skill">
-                <p><em>85%</em></p>
-                <p>Joomla</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-3">
-            <div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <div class="html-skill">
-                <p><em>95%</em></p>
-                <p>HTML</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-3">
-            <div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-              <div class="css-skill">
-                <p><em>80%</em></p>
-                <p>CSS</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-3">
-            <div class="sinlge-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
-              <div class="wp-skill">
-                <p><em>90%</em></p>
-                <p>Wordpress</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-
-      <!-- our-team -->
-      <div class="team">
-        <div class="center wow fadeInDown">
-          <h2>Team of <span>Gp.</span></h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-
-        <div class="row clearfix">
-          <div class="col-md-4 col-sm-6">
-            <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="media">
-                <div class="pull-left">
-                  <a href="#"><img class="media-object" src="<?=base_url()?>res/images/man1.jpg" alt=""></a>
-                </div>
-                <div class="media-body">
-                  <h4>Jhon Doe</h4>
-                  <h5>Founder and CEO</h5>
-                  <ul class="tag clearfix">
-                    <li class="btn"><a href="#">Web</a></li>
-                    <li class="btn"><a href="#">Ui</a></li>
-                    <li class="btn"><a href="#">Ux</a></li>
-                    <li class="btn"><a href="#">Photoshop</a></li>
-                  </ul>
-
-                  <ul class="social_icons">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <!--/.media -->
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-            </div>
-          </div>
-          <!--/.col-lg-4 -->
-
-
-          <div class="col-md-4 col-sm-6 col-md-offset-2">
-            <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="media">
-                <div class="pull-left">
-                  <a href="#"><img class="media-object" src="<?=base_url()?>res/images/man2.jpg" alt=""></a>
-                </div>
-                <div class="media-body">
-                  <h4>Jhon Doe</h4>
-                  <h5>Founder and CEO</h5>
-                  <ul class="tag clearfix">
-                    <li class="btn"><a href="#">Web</a></li>
-                    <li class="btn"><a href="#">Ui</a></li>
-                    <li class="btn"><a href="#">Ux</a></li>
-                    <li class="btn"><a href="#">Photoshop</a></li>
-                  </ul>
-                  <ul class="social_icons">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <!--/.media -->
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-            </div>
-          </div>
-          <!--/.col-lg-4 -->
-        </div>
-        <!--/.row -->
-        <div class="row team-bar">
-          <div class="first-one-arrow hidden-xs">
-            <hr>
-          </div>
-          <div class="first-arrow hidden-xs">
-            <hr> <i class="fa fa-angle-up"></i>
-          </div>
-          <div class="second-arrow hidden-xs">
-            <hr> <i class="fa fa-angle-down"></i>
-          </div>
-          <div class="third-arrow hidden-xs">
-            <hr> <i class="fa fa-angle-up"></i>
-          </div>
-          <div class="fourth-arrow hidden-xs">
-            <hr> <i class="fa fa-angle-down"></i>
-          </div>
-        </div>
-        <!--skill_border-->
-
-        <div class="row clearfix">
-          <div class="col-md-4 col-sm-6 col-md-offset-2">
-            <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <div class="media">
-                <div class="pull-left">
-                  <a href="#"><img class="media-object" src="<?=base_url()?>res/images/man3.jpg" alt=""></a>
-                </div>
-
-                <div class="media-body">
-                  <h4>Jhon Doe</h4>
-                  <h5>Founder and CEO</h5>
-                  <ul class="tag clearfix">
-                    <li class="btn"><a href="#">Web</a></li>
-                    <li class="btn"><a href="#">Ui</a></li>
-                    <li class="btn"><a href="#">Ux</a></li>
-                    <li class="btn"><a href="#">Photoshop</a></li>
-                  </ul>
-                  <ul class="social_icons">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <!--/.media -->
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-md-offset-2">
-            <div class="single-profile-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <div class="media">
-                <div class="pull-left">
-                  <a href="#"><img class="media-object" src="<?=base_url()?>res/images/man4.jpg" alt=""></a>
-                </div>
-                <div class="media-body">
-                  <h4>Jhon Doe</h4>
-                  <h5>Founder and CEO</h5>
-                  <ul class="tag clearfix">
-                    <li class="btn"><a href="#">Web</a></li>
-                    <li class="btn"><a href="#">Ui</a></li>
-                    <li class="btn"><a href="#">Ux</a></li>
-                    <li class="btn"><a href="#">Photoshop</a></li>
-                  </ul>
-                  <ul class="social_icons">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <!--/.media -->
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-            </div>
-          </div>
-        </div>
-        <!--/.row-->
-      </div>
-      <!--section-->
     </div>
-    <!--/.container-->
-  </section>
-  <!--/about-us-->
+
+  </div>
+  
+</section>      
+
+<section class="section element-animate">
+  <div class="clearfix mb-5 pb-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center heading-wrap">
+          <h2>Nuestra empresa</h2>
+          <span class="back-text">Nosotros</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <p><img src="<?=base_url()?>res/img/trabajando2.jpg" alt="" class="img-fluid"></p>
+      </div>
+      <div class="col-lg-6 pl-2 pl-lg-5">
+        <p class="text-justify">Speial Chem es una empresa de distribución de productos químicos. En representación de los principales productores mundiales, nuestro personal de ventas son técnicos expertos enfocados en el mercado, que ofrecen soluciones a los problemas de los clientes que utilizan nuestra cartera integral y complementaria de productos.</p>
+        <p  class="text-justify">Proporcionamos a nuestros socios soluciones óptimas, a la medida, para la gestión de distribución multi-territorial en México.</p>
+        <p  class="text-justify">Por medio de nuestra gente, su pericia y la creación de asociaciones abiertas y duraderas, Special Chem es capaz de proporcionar asesoramiento en la formulación, el proceso de producción y la aplicación, generando así un crecimiento incomparable para nuestros socios.
+        Special Chem cumple una función de valor agregado en la cadena de suministro.</p>
+
+      </div>
+
+    </div>
+  </div>
+  
+</section>
+
+
+<section class="section element-animate">
+
+  <div class="clearfix mb-5 pb-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center heading-wrap">
+          <h2>Nuestros Clientes</h2>
+          <span class="back-text">Clientes</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="major-caousel js-carousel-1 owl-carousel">
+        <div>
+          <div class="media d-block media-custom text-center">
+            <a href="adoption-single.html"><img src="<?=base_url()?>res/img/samsung.jpg" alt="Image Placeholder" class="img-fluid"></a>
+            <div class="media-body">
+              <h3 class="mt-0 text-black">Samsung &reg;</h3>
+              <p class="lead">CEO, Co-Founder</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-center">
+            <a href="adoption-single.html"><img src="<?=base_url()?>res/img/person_2.jpg" alt="Image Placeholder" class="img-fluid"></a>
+            <div class="media-body">
+              <h3 class="mt-0 text-black">Mike Richardson</h3>
+              <p class="lead">CEO, Co-Founder</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-center">
+            <a href="adoption-single.html"><img src="<?=base_url()?>res/img/person_3.jpg" alt="Image Placeholder" class="img-fluid"></a>
+            <div class="media-body">
+              <h3 class="mt-0 text-black">Charles White</h3>
+              <p class="lead">CEO, Co-Founder</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="media d-block media-custom text-center">
+            <a href="adoption-single.html"><img src="<?=base_url()?>res/img/person_1.jpg" alt="Image Placeholder" class="img-fluid"></a>
+            <div class="media-body">
+              <h3 class="mt-0 text-black">Mellisa Howard</h3>
+              <p class="lead">CEO, Co-Founder</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-center">
+            <a href="adoption-single.html"><img src="<?=base_url()?>res/img/person_2.jpg" alt="Image Placeholder" class="img-fluid"></a>
+            <div class="media-body">
+              <h3 class="mt-0 text-black">Mike Richardson</h3>
+              <p class="lead">CEO, Co-Founder</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-center">
+            <a href="adoption-single.html"><img src="<?=base_url()?>res/img/person_3.jpg" alt="Image Placeholder" class="img-fluid"></a>
+            <div class="media-body">
+              <h3 class="mt-0 text-black">Charles White</h3>
+              <p class="lead">CEO, Co-Founder</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- END slider -->
+    </div>
+  </div>
+
+</section> <!-- .section -->
+
+
